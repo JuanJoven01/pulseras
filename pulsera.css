@@ -1,0 +1,48 @@
+body {
+    height: 100%;
+    width: 100%;
+
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: column;
+}
+
+.category {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.containSec {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.forRhythm {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.newSec {
+    display: flex;
+    padding-bottom: 8px;
+}
+
+#map {
+    margin: 40px;
+    height: 300px;
+    width: 300px;
+    background-color: aquamarine;
+}
+
