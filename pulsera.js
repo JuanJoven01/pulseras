@@ -29,7 +29,7 @@ function initMap() {
       // Browser doesn't support Geolocation
       handleLocationError(false, infoWindow, map.getCenter());
     }
-    setTimeout(waitexcecute, 5000);
+    setTimeout(waitexcecute, 1000);
   }
   waitexcecute();
   infoWindow = new google.maps.InfoWindow();
