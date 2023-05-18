@@ -18,8 +18,7 @@ function initMap() {
 
           infoWindow.setPosition(pos);
           infoWindow.setContent("Estás aqui");
-          infoWindow.open(map);
-          map.setCenter(pos);
+          infoWindow.open(map);          
         },
         () => {
           handleLocationError(true, infoWindow, map.getCenter());
@@ -82,6 +81,8 @@ function newPerson() {
 
 //lanzamiento de la funcion newSection  
 function Join() {
+  
+    newPerson();
 
   newsec = document.querySelector('.category');
   sectionContain = document.createElement('contain');
