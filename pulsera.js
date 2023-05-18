@@ -82,9 +82,6 @@ function newPerson() {
 
 //lanzamiento de la funcion newSection  
 function Join() {
-  for (let i = 0; i < 5; i++) {
-    newPerson();
-  }
 
   newsec = document.querySelector('.category');
   sectionContain = document.createElement('contain');
